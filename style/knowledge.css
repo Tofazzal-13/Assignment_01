@@ -12,7 +12,7 @@
     width: 70%;
     max-width: 1360px;
     margin: 0 auto; 
-    text-align: center;
+    
 }
 
 .btn{
@@ -63,7 +63,9 @@
     background-size: cover;
     padding: 185px 0px;
 }
-
+.banner_container{
+    text-align: center;
+}
 .banner_container h2{
     color: rgba(255, 255, 255, 1);
     font-size: 72px;
@@ -81,4 +83,51 @@
     padding: 16px 295px 32px;
 
 }
+/* banner part end here */
+/* structure part start here */
+.structure{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.structure_card{
+    margin: 45px auto;
+    display: flex;
+    gap:24px ;
+}
+.card_item{
+    text-align: center;
+    padding: 24px;
+    box-shadow:0px 0px 8px 0px #62738244 ;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.card_item img{
+    background-color:rgba(249, 85, 85, 1) ;
+    padding: 14px ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* structure part end here */
+/* brain part start here */
+.brain_container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain_img img{
+    width: 600px;
+    height: 600px;
+}
+.brain_info_details{
+    display: flex;
+}
+/* brain part end here */
+
 
