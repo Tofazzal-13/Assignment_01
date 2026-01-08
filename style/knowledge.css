@@ -1,0 +1,53 @@
+/* sharing css part start here*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.inter_font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:12px 16px ;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+
+/* sharing css part end here */
+
+/* nav part start here */
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69%;
+    max-width: 1340px;
+    margin: 0 auto; 
+    padding: 16px 0;  
+}
+.nav_menu ul{
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+}
+.nav_main ul li{
+    list-style: none;
+}
+.nav_main ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+/* nav part end here */
