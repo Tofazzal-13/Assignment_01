@@ -236,7 +236,7 @@
     text-align: center;
     padding: 80px 40px;
 }
-/* clear part end here */
+
 .ready_think{
     margin-top:122px ;
 }
@@ -252,7 +252,19 @@
     line-height: 24px;
     padding: 16px 0 24px 0;
 }
-
+.clear_msg{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 16px;
+}
+.clear_msg h5{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* clear part end here */
 /* footer section start here */
 #footer{
     background-color:rgba(0, 25, 49, 1) ;
