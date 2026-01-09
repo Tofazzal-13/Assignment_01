@@ -86,8 +86,29 @@
     background-size: cover;
     padding: 185px 0px;
 }
+.early_access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: rgba(70, 145, 101, 1);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 229px;
+    padding: 8px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.early_access h4{
+    font-weight: 500;
+    line-height: 19px;
+}
 .banner_container{
     text-align: center;
+    justify-items: center;
 }
 .banner_container h2{
     color: rgba(255, 255, 255, 1);
@@ -200,8 +221,9 @@
 .brain_info_details{
     margin-bottom: 16px;
 }
-.brain_info_details h5{
+.brain_info_details h4{
     color:rgba(0, 25, 49, 1);
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
 }
