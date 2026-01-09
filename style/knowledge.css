@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .inter_font> {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -29,8 +30,29 @@
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-
-
+.btn:hover{
+    color: rgb(11, 25, 223);
+    background-color: rgb(107, 172, 172);
+}
+.btn2{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    background-color:rgba(255, 254, 254, 0) ;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 16px;
+    margin-left: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.btn2:hover{
+    color: rgb(11, 25, 223);
+    background-color: rgb(107, 172, 172);
+}
 
 /* sharing css part end here */
 
@@ -178,6 +200,11 @@
 .brain_info_details{
     margin-bottom: 16px;
 }
+.brain_info_details h5{
+    color:rgba(0, 25, 49, 1);
+    font-weight: 500;
+    line-height: 20px;
+}
 
 /* brain part end here */
 /* clear part start here */
@@ -202,4 +229,49 @@
     font-weight: 400;
     line-height: 24px;
     padding: 16px 0 24px 0;
+}
+
+/* footer section start here */
+#footer{
+    background-color:rgba(0, 25, 49, 1) ;
+    margin-top: 120px;
+    
+}
+.footer_container{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.footer_content{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   padding-bottom: 30px;
+   text-align: center;
+  
+}
+.footer_media{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 80px;
+}
+.footer_icon{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer_icon a{
+    margin:0 8px;
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+.footer_copywrite{
+    text-align: center;
+    margin-top: 30px ;
+}
+.footer_copywrite h5{
+    color:rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
